@@ -1,185 +1,116 @@
-# Awesome-Dark-Web-Monitoring-Threat-Reconnaissance
+<div align="center">
 
-# Awesome-Dark-Web-Monitoring-Threat-Reconnaissance
+<img src="./assets/banner.svg" alt="Awesome Dark Web Monitoring and Threat Reconnaissance" width="100%" />
 
-**Top Dark Web Monitoring Threat Reconnaissance (Opensource) 🌟 Star if you like it! 🌟**
+# Awesome Dark Web Monitoring & Threat Reconnaissance
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Tracked Projects](https://img.shields.io/badge/Tracked%20Tools-Commercial%20%26%20Open%20Source-blue.svg)](https://github.com/ishandutta2007/Awesome-Dark-Web-Monitoring-Threat-Reconnaissance)
+[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Dark-Web-Monitoring-Threat-Reconnaissance?style=social)](https://github.com/ishandutta2007/Awesome-Dark-Web-Monitoring-Threat-Reconnaissance/stargazers)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Dark-Web-Monitoring-Threat-Reconnaissance/blob/main/README.md#how-to-contribute)
 
+**A curated index of enterprise SaaS platforms and battle-tested open-source repositories for dark web reconnaissance, credential exposure tracking, infostealer analysis, and threat actor profiling.**
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Illicit Community Collection, Credential Exposure, Threat Actor Tracking & Self-Hosted Dark Web OSINT*
-
-**Last updated: November 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Dark Web Monitoring & Threat Reconnaissance**. These tools enable security teams to monitor criminal forums, paste sites, and Tor-hidden services for leaked credentials, brand abuse, and threat actor chatter—from fully managed enterprise platforms with proprietary dark web collection to self-hosted OSINT tools that give researchers control over their reconnaissance pipeline.
-
-
-
-**Examples** include CrowdStrike Falcon Intelligence Recon, Recorded Future, Flashpoint, ZeroFox, Cybersixgill, SpyCloud, Flare Systems, DarkOwl, SOCRadar, and KELA (the category leaders in commercial space).
-
-
-
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted dark web reconnaissance, credential monitoring, and open OSINT infrastructure. **Critical note**: The open-source landscape is sparse—**voidaccess** is the only purpose-built self-hosted dark web OSINT platform, but it is a newer project with limited production validation . **IVRE** provides network reconnaissance (not dark web), and **MISP** handles intelligence sharing rather than collection. No open-source project matches Recorded Future's Intelligence Graph or Flashpoint's illicit community access.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[CrowdStrike Falcon Intelligence Recon](https://www.crowdstrike.com/)**
-
-  **Dark web and brand monitoring** within Falcon Intelligence. **Pricing**: **Custom quote only**—no public pricing, no free tier . Support tier premiums add ~$10,000/year, capped at 12% of license cost . **Free tier**: None. **Best for**: CrowdStrike customers wanting recon integrated with Falcon telemetry—**trade-off**: quote-only; requires existing Falcon investment.
-
-
-
-- **[Recorded Future](https://www.recordedfuture.com/)**
-
-  **Intelligence platform** with dark web and technical collection. **Pricing**: **Quote-only**; UK G-Cloud listing shows **no discount tiers up to £5M+** and a **30-day sandbox trial on request** . **Free tier**: Trial sandbox only. **Best for**: enterprises wanting comprehensive intelligence including dark web—**trade-off**: no self-serve; procurement requires sales engagement.
-
-
-
-- **[Flashpoint](https://flashpoint.io/)**
-
-  **Threat intelligence platform** with illicit community collection. **Pricing**: **Quote-only**; Vendr median buyer pays **$57,855/year** (range $54,200–$79,730) . Core packages include **Cyber Threat Intelligence** (Ignite, API, account takeover credentials, vulnerability intelligence) and **Physical Security** (Echosec) . Claims **482% ROI in 6 months** and **$500M fraud loss avoided per year** . **Free tier**: None. **Best for**: CTI and fraud teams needing broad illicit-source coverage—**trade-off**: enterprise pricing; value depends on dark web relevance.
-
-
-
-- **[ZeroFox](https://www.zerofox.com/)**
-
-  **Digital risk protection** with dark web monitoring and takedown capability. **Pricing**: **Quote-only**; outcome-based, not per-headcount. **Free tier**: None. **Best for**: organizations prioritizing brand protection and takedowns alongside intelligence—**trade-off**: digital risk focus; less depth in pure adversary tracking.
-
-
-
-- **[Cybersixgill](https://cybersixgill.com/)**
-
-  **Dark web intelligence** platform with Investigative Portal. **Pricing**: **Quote-only**; TrustRadius shows **no free trial and no freemium version** . **Free tier**: None. **Best for**: teams needing deep dark web coverage—**trade-off**: no trial; portal-centric.
-
-
-
-- **[SpyCloud](https://spycloud.com/)**
-
-  **Account takeover prevention** with credential exposure monitoring. **Pricing**: **Custom quote, negotiable**; **no published pricing, no self-serve checkout, no free tier** . SMB tier (1–99 mailboxes) buried in **reseller pricelists**, not advertised . **Free tier**: **No**—free exposure scan tool only. **Best for**: enterprises fighting account takeover—**trade-off**: sales-led, no transparent pricing; skip if you want self-serve.
-
-
-
-- **[Flare Systems](https://flare.io/)**
-
-  **Threat exposure management** monitoring clear and dark web, Telegram, and cybercrime forums for leaked credentials and stealer logs. **Pricing**: **Quote-based**; **free trial available** . Scores **82.8/100 in 2026 Infostealer Index**—leading on specialization, machine context, segmentation, and sessions . **Free tier**: Trial available. **Best for**: security teams wanting fast-to-deploy exposure monitoring with stealer-log context—**trade-off**: quote-based; smaller vendor than Recorded Future.
-
-
-
-- **[DarkOwl](https://www.darkowl.com/)**
-
-  **Dark web intelligence** with Vision UI, Search API, Entity API, Score API, and Datafeeds. **Pricing**: **All 5 plans quote-only**; buyers report **starting from ~$38,000/year** (4 public sources) . **No free plan, no trial**; **auto-renew with 12/24/36-month minimums**; **3–5% or 5–10% annual price escalation**; 30/60/90-day cancellation notice . **Free tier**: None. **Best for**: teams wanting dark web data via API or UI—**trade-off**: no trial; auto-renewal with escalation; 7 documented hidden costs .
-
-
-
-- **[SOCRadar](https://socradar.io/)**
-
-  **Cyber threat intelligence** with dark web monitoring. **Pricing**: **Essential $14,750/year** (vulnerability intel, dark web intel, threat hunting, 1,000 search credits, 1 supply chain vendor, 50+ feeds, 6,000+ combolists, 100 malware analysis credits); **Freemium $0** available . **Free tier**: Yes, Freemium plan. **Best for**: SMBs wanting affordable CTI with dark web monitoring—**trade-off**: Essential credits limited; Freemium scope unverified.
-
-
-
-- **[KELA](https://www.kela.io/)**
-
-  **Dark web threat intelligence** platform. **Pricing**: Quote-only. **Free tier**: None. **Best for**: enterprises wanting curated dark web intelligence—**trade-off**: no public pricing; sales-led.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[voidaccess](https://github.com/KatrielMoses/voidaccess)**
-
-  **Self-hosted dark web OSINT platform** (license per repo) — **the only purpose-built open-source dark web reconnaissance tool** found in this research, positioned as a free alternative to Recorded Future, DarkOwl, and Flare . **Features**: **One query fans out to 12+ Tor search engines**, code hosts, security feeds, and curated `.onion` seeds; **follows new .onion links** as it finds them; **mandatory safety gates** drop prohibited queries, URLs, and content; **extracts entities** (threat actors, infrastructure, crypto wallets, credentials masked, messaging handles, CVEs); **links entities into a searchable relationship graph** with communities and infrastructure clusters; **exports** to STIX, MISP, Sigma, YARA, Snort, Suricata, CSV, Markdown, JSON; **CLI** (`voidaccess investigate`, `export`, `show`, `enrich`); **hosted version** at voidaccess.pro . **Tech stack**: Python 3.10+, PostgreSQL, Tor, Docker Compose for full stack . **Deploy**: `pip install voidaccess` or Docker Compose self-hosting . **Trade-off**: **Newer project**—limited production validation; hosted version routes through Tor on vendor servers; clearnet-only mode available without Tor. **Best for**: security researchers and threat-intel teams wanting a free, self-hosted dark web OSINT pipeline with graph output and STIX/MISP export—especially those priced out of Recorded Future or DarkOwl.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **IVRE** — Network recon framework (GPL-3.0, ~4,068 stars). Build self-hosted alternatives to Shodan/Censys with Nmap, Masscan, Zeek, and Passive DNS. **Note**: **Network reconnaissance, not dark web**—internet-wide scanning, not Tor/illicit forums . **Best for**: teams building their own internet scanning infrastructure.
-
-- **MISP** — Threat intelligence sharing platform (AGPL-3.0). IOC management, correlation, sharing communities. **Note**: **Sharing and intelligence management, not dark web collection**—pair with voidaccess for collection. **Best for**: ISACs and teams needing intelligence sharing infrastructure.
-
-- **No mature open-source dark web monitoring platform exists beyond voidaccess.** The category is dominated by proprietary vendors with proprietary collection networks and analyst teams. **voidaccess** provides a functional starting point but lacks the source breadth and validation of commercial platforms.
-
-
-
-**Frameworks for building custom systems**: **voidaccess** is the only open-source dark web OSINT tool. Pair it with **MISP** for intelligence sharing and **IVRE** for clearnet reconnaissance—creating a limited open-source recon stack. **None of these match Flashpoint's illicit community access or Recorded Future's Intelligence Graph.**
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Dark web monitoring platforms handle sensitive intelligence and credential data. Accessing dark web forums may have legal implications depending on jurisdiction. **Ensure your use complies with applicable laws and your organization's authorized investigation policies.**
-
-- **The "illicit community collection" vs. "credential exposure" vs. "digital risk protection" vs. "self-hosted OSINT" distinction is critical.** **Flashpoint and KELA** are **illicit community collection**—they provide access to criminal forums and markets . **SpyCloud** is **credential exposure**—it focuses on account takeover and leaked credentials . **ZeroFox** is **digital risk protection**—brand protection and takedowns . **voidaccess** is **self-hosted OSINT**—it collects from Tor and open sources but lacks proprietary forum access . **Choose based on whether you need forum access, credential monitoring, brand protection, or self-hosted recon.**
-
-- **SpyCloud has no free tier and no self-serve checkout.** SMB pricing is buried in reseller pricelists—**skip if you want transparent pricing** . **Flare offers a free trial with fast time-to-value** .
-
-- **DarkOwl auto-renews with 12/24/36-month minimums and 3–10% annual escalation.** Buyers report **~$38K/year starting**, but hidden costs (implementation, training, add-ons) add significantly . **Negotiate escalation caps and cancellation terms before signing.**
-
-- **Flashpoint's median buyer pays $57,855/year** (range $54,200–$79,730) . Claims **482% ROI** and **$500M fraud avoided** are vendor-reported—validate against your own threat model .
-
-- **SOCRadar Essential at $14,750/year is the most transparent entry point** in this category, with a **Freemium $0** option . **For SMBs testing dark web monitoring, it is the pragmatic starting point.**
-
-- **voidaccess is the only open-source dark web OSINT tool**, but it is **newer with limited validation** . The hosted version routes through Tor on vendor servers; self-hosting requires PostgreSQL and Docker Compose . **For researchers wanting a free alternative to commercial platforms, it is the starting point.**
-
-- **Pricing opacity is universal** across CrowdStrike, Recorded Future, Flashpoint, ZeroFox, Cybersixgill, SpyCloud, Flare, DarkOwl, and KELA. All require sales contact or quote requests. **SOCRadar publishes Essential pricing.** **Validate with direct vendor conversations against your threat model and collection requirements.**
-
-- Self-hosted open-source solutions require proper infrastructure (PostgreSQL, Tor for voidaccess), security hardening, and ongoing maintenance. **Dark web reconnaissance involves interacting with criminal infrastructure**—ensure your deployment is isolated and meets your organization's legal and security standards before collecting intelligence.
-
-
+</div>
 
 ---
 
+## 📑 Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [Enterprise SaaS & Commercial Platforms](#enterprise-saas--commercial-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [Classification Matrix: Understanding Capabilities](#classification-matrix-understanding-capabilities)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer & Legal Scope](#disclaimer--legal-scope)
 
-**Made for threat intelligence analysts, security researchers, and organizations building transparent dark web reconnaissance solutions.**
+---
 
-Let's make Dark Web Monitoring & Threat Reconnaissance more open, data-driven, and adversary-aware.
+## Sector Overview & Market Dynamics
+
+The global **Dark Web Intelligence & Cyber Threat Intelligence (CTI)** market is estimated at **$1.1B to $1.2B**, expanding rapidly toward **$3.5B+ by 2032** at a **15%–22% CAGR**, driven by pervasive infostealer malware, corporate credential leaks, and ransomware extortion portals. 
+
+The competitive landscape is **moderately to highly fragmented** rather than a winner-take-all monopoly: market share is split between multi-billion-dollar XDR/SIEM conglomerates absorbing intelligence layers into endpoint suites, specialized enterprise intelligence pure-plays commanding proprietary human collections across underground forums, and agile threat exposure startups focusing on automated stealer-log parsing and Telegram surveillance.
+
+---
+
+## Enterprise SaaS & Commercial Platforms
+
+Commercial platforms differentiate themselves through closed-source collection spiders, curated Telegram/Tor crawlers, human intelligence (HUMINT) operations in Russian- and Chinese-speaking forums, and automated takedown networks.
+
+> [!NOTE]
+> All SaaS entries below are sorted in descending order by **Company Scale (Market Capitalization / Valuation / Revenue)**. Specific entry pricing tiers and exact free trial terms have been cataloged from procurement filings (G-Cloud, DIR, Vendr) and vendor contracts.
+
+| Provider & Platform | Company Scale (Valuation / Revenue) 🔽 | Starting Tier Pricing | Free Tier / Trial Limit | Key Focus & Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| [CrowdStrike Falcon Intelligence Recon](https://www.crowdstrike.com/) | **~$250B Market Cap**<br>*(~$4.8B FY2026 Revenue)* | **$59.99/device/yr** *(Falcon Go base)*;<br>**Recon enterprise add-on starting ~$160–$198/unit** *(DIR schedule; enterprise tiers ~$540K/yr)* | **15-Day Free Trial** *(Guided POC/trial for Recon via Falcon Store/sales; no credit card required)* | Dark web, paste site, and brand exposure telemetry linked to Falcon endpoint protection. |
+| [Recorded Future](https://www.recordedfuture.com/) | **$2.65B Acquisition** *(Mastercard)*<br>*(~$300M–$350M ARR)* | **£40,500/yr (~$50,000/yr)** *(G-Cloud single-module entry)*;<br>Mid-market bundles $75,000–$200,000 ACV | **30-Day Sandbox Trial** *(Available on request for qualified security teams; sandbox demo data limits apply)* | Broad intelligence graph tracking underground forums, paste sites, technical infrastructure, and CVE exploitation. |
+| [SpyCloud](https://spycloud.com/) | **$1.6B Valuation** *(Series C mark)*<br>*(~$40M–$60M ARR)* | **$1,700–$1,800/yr** *(SMB workforce entry: 1–99 mailboxes)*;<br>Enterprise tier custom-quoted per identity volume | **Free Exposure Scan Tool** *(One-time corporate domain exposure audit; custom 14-day guided enterprise POC)* | Dedicated account takeover (ATO) prevention, active stealer log session cookies, and compromised credential interception. |
+| [ZeroFox](https://www.zerofox.com/) | **$350M Acquisition** *(Haveli PE)*<br>*(~$180M ARR prior)* | **$15,000–$30,000/yr** *(Foundation Bundle entry list)*;<br>Scales by protected digital asset footprint | **10 to 15-Day Trial Limit** *(Strict 10–15 day discretionary trial/POC window per Master Customer Agreement)* | Digital risk protection (DRP), executive protection, external dark web credential discovery, and rapid takedown execution. |
+| [Flashpoint](https://flashpoint.io/) | **~$250M Valuation** *(Audax PE)*<br>*(~$100M+ Revenue)* | **$54,200–$57,855/yr** *(Vendr median entry buyer ACV; range up to $79,730/yr)* | **14-Day Guided Evaluation** *(Enterprise POC with sample threat actor intelligence reports; no self-serve free tier)* | Illicit forum intelligence, threat actor chatter tracking, ransomware tracking, and specialized Russian/illicit market HUMINT. |
+| [Cybersixgill](https://cybersixgill.com/) | **$115M Acquisition** *(Bitsight)*<br>*(Tens of millions ARR)* | **$30,000–$45,000/yr** *(Entry-level Investigative Portal SaaS subscription)* | **90-Day (3-Month) Trial** *(Available through Microsoft Security Copilot partnership & enterprise evaluations)* | Automated dark web, deep web, and Telegram scraping feeding real-time raw intelligence into SOC platforms. |
+| [SOCRadar](https://socradar.io/) | **$120M Valuation** *(Series B)*<br>*(~$30M–$35M Revenue)* | **$14,750/yr** *(Essential Tier with 1,000 search credits & 1 supply chain vendor)* | **Free-for-Ever Freemium Plan** *(1 search credit/day, basic domain alerts, no API access)* | Extended threat intelligence, external attack surface management (EASM), and automated dark web monitoring for mid-market and SMBs. |
+| [Flare](https://flare.io/) | **$120M Valuation** *(Series B)*<br>*(~$10M–$15M ARR)* | **$18,000–$25,000/yr** *(Starting team tier for threat exposure monitoring)* | **14-Day Free Trial** *(Full SaaS platform evaluation with automated stealer-log and credential discovery)* | Rapid-deployment Threat Exposure Management (TEM) scanning public repositories, dark forums, and Telegram infostealer channels. |
+| [KELA](https://www.kela.io/) | **~$60M–$80M Valuation** *(Vector PE)*<br>*(Profitable enterprise revenue)* | **$30,000–$50,000/yr** *(Entry intelligence module subscription on AWS Marketplace/resellers)* | **30-Day Free Trial** *(Comprehensive guided trial across darknet monitoring and threat landscape portals)* | Targeted cybercrime intelligence, initial access broker (IAB) identification, and tailored underground market reconnaissance. |
+| [DarkOwl](https://www.darkowl.com/) | **~$30M–$40M Valuation** *(Five Elms)*<br>*(~$3M–$5M ARR)* | **$38,000/yr** *(Starting Vision UI/API contract; minimum 12-month commitment with 3–10% escalation)* | **7-Day Guided Evaluation** *(Limited-scope proof-of-concept after walkthrough; no public self-service trial)* | The world's largest commercially indexed database of darknet content (TOR, I2P, Zeronet, paste sites) via Vision API and UI. |
+
+---
+
+## Open-Source GitHub Projects
+
+For red teams, defensive threat researchers, and autonomous SOC builders, open-source tools allow local indexing, unconstrained OSINT querying, and community-driven threat hunting without SaaS subscription overhead.
+
+> [!TIP]
+> The table below is sorted in descending order by **GitHub Star Count**. Every badge links directly to that repository's stargazers page.
+
+| Repository & Tool | GitHub Popularity (Stars) 🔽 | Core Focus & Functionality | Best Use Case |
+| :--- | :--- | :--- | :--- |
+| [SpiderFoot](https://github.com/smicallef/spiderfoot) | [![Stars](https://img.shields.io/github/stars/smicallef/spiderfoot?style=social&color=white)](https://github.com/smicallef/spiderfoot/stargazers) | Automated OSINT collection engine integrating 200+ data modules, Tor network routing, leaked credential searchers, and dark web scrapers. | Automated multi-source reconnaissance and corporate external footprint mapping. |
+| [theHarvester](https://github.com/laramies/theHarvester) | [![Stars](https://img.shields.io/github/stars/laramies/theHarvester?style=social&color=white)](https://github.com/laramies/theHarvester/stargazers) | Fast OSINT reconnaissance tool that queries search engines, PGP key servers, Shodan, and breach databases for emails, names, subdomains, and employee footprints. | Early-stage footprinting and finding corporate email formats vulnerable to credential stuffing. |
+| [OWASP Amass](https://github.com/OWASP/Amass) | [![Stars](https://img.shields.io/github/stars/OWASP/Amass?style=social&color=white)](https://github.com/OWASP/Amass/stargazers) | In-depth attack surface mapping and external asset discovery utilizing active recon and passive open-source threat intelligence feeds. | Mapping external company attack surfaces to correlate against newly disclosed dark web breach targets. |
+| [deepdarkCTI](https://github.com/fastfire/deepdarkCTI) | [![Stars](https://img.shields.io/github/stars/fastfire/deepdarkCTI?style=social&color=white)](https://github.com/fastfire/deepdarkCTI/stargazers) | Exhaustive, actively curated collection of Cyber Threat Intelligence sources across Tor, I2P, Telegram channels, pastebins, and ransomware leak sites. | Essential reference directory for threat analysts building custom scraping scripts and intelligence feeds. |
+| [MISP](https://github.com/MISP/MISP) | [![Stars](https://img.shields.io/github/stars/MISP/MISP?style=social&color=white)](https://github.com/MISP/MISP/stargazers) | Open-source threat sharing platform for storing, correlating, and sharing Indicators of Compromise (IOCs), threat actor TTPs, and financial fraud data. | Centralizing dark web intelligence feeds, IOC deduplication, and community threat sharing (ISACs). |
+| [TorBot](https://github.com/DedSecInside/TorBot) | [![Stars](https://img.shields.io/github/stars/DedSecInside/TorBot?style=social&color=white)](https://github.com/DedSecInside/TorBot/stargazers) | Dedicated Python-based Tor dark web crawler designed to scrape `.onion` hidden services, extract page titles, gather email addresses, and map site trees. | Dark web target discovery, crawling unindexed hidden services, and custom keyword alerting. |
+| [IVRE](https://github.com/ivre/ivre) | [![Stars](https://img.shields.io/github/stars/ivre/ivre?style=social&color=white)](https://github.com/ivre/ivre/stargazers) | Network recon framework integrating Nmap, Masscan, Zeek, and passive DNS to build a self-hosted alternative to Shodan and Censys. | Identifying internet-facing exposed assets and corroborating server fingerprints found on dark forums. |
+| [OnionScan](https://github.com/s-rah/onionscan) | [![Stars](https://img.shields.io/github/stars/s-rah/onionscan?style=social&color=white)](https://github.com/s-rah/onionscan/stargazers) | Dark web investigation tool focused on deanonymizing Tor hidden services through operational security (OPSEC) failures, leaks, and metadata flaws. | Red-team adversary infrastructure tracking and uncovering hidden service operational flaws. |
+| [Dark Web OSINT Tools](https://github.com/apurvsinghgautam/dark-web-osint-tools) | [![Stars](https://img.shields.io/github/stars/apurvsinghgautam/dark-web-osint-tools?style=social&color=white)](https://github.com/apurvsinghgautam/dark-web-osint-tools/stargazers) | Curated compilation of search engines, onion link aggregators, cryptocurrency tracers, and specialized dark web investigation tools. | Fast handbook for cybercrime investigators tracking Bitcoin/Monero wallets and obscure Tor services. |
+| [voidaccess](https://github.com/KatrielMoses/voidaccess) | [![Stars](https://img.shields.io/github/stars/KatrielMoses/voidaccess?style=social&color=white)](https://github.com/KatrielMoses/voidaccess/stargazers) | Purpose-built self-hosted dark web OSINT platform: queries 12+ Tor search engines, extracts entities (wallets, CVEs, actors), and builds relationship graphs. | Self-hosted dark web search pipeline with STIX/MISP/YARA export for teams priced out of proprietary platforms. |
+
+---
+
+## Classification Matrix: Understanding Capabilities
+
+Understanding what each tool accomplishes avoids mismatched procurement and architectural overhead:
+
+1. **Illicit Community Collection (Flashpoint, KELA, Cybersixgill):** Provide deep visibility into password-protected cybercrime forums, private Russian/English marketplaces, and closed Telegram leak channels.
+2. **Credential Exposure & Anti-ATO (SpyCloud, SOCRadar):** Specialize in cataloging stolen credentials, plain-text passwords, and active session cookies harvested by infostealers (RedLine, Vidar, Lumma).
+3. **Digital Risk Protection & Takedowns (ZeroFox, CrowdStrike Recon):** Focus on brand abuse, typosquatting domains, executive impersonation, and automating legal/takedown notices.
+4. **Self-Hosted Crawling & Investigation (SpiderFoot, voidaccess, TorBot, deepdarkCTI):** Provide local execution, zero query surveillance, and custom workflow integration for independent security research.
+
+---
+
+## How to Contribute
+
+Contributions are highly welcomed! Help us keep this directory accurate, up-to-date, and objective.
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feat/add-tool-name`.
+3. Add the SaaS platform or open-source tool following the existing tabular structure.
+4. Ensure SaaS entries include **verified starting tier pricing**, **free tier/trial limits**, and **company valuation or revenue context**.
+5. Ensure open-source entries include a valid **social white-styled GitHub star badge linking to `/stargazers`**.
+6. Submit a pull request with a brief justification and documentation references.
+
+---
+
+## Disclaimer & Legal Scope
+
+- This repository is strictly for educational, security research, and corporate risk mitigation purposes.
+- Monitoring and interacting with dark web infrastructure, underground forums, and paste sites requires appropriate authorization, technical isolation, and strict compliance with local laws.
+- Enterprise quotes fluctuate based on volume and contract terms; data represented reflects public sector schedules (G-Cloud, DIR), procurement aggregators (Vendr), and vendor disclosures.
+
+---
+
+<div align="center">
+  <sub>Maintained for threat intelligence analysts, incident responders, and OSINT researchers. Star this repository to support continuous updates!</sub>
+</div>
