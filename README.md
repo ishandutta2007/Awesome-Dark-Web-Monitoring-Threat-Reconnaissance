@@ -7,7 +7,7 @@
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 [![Tracked Projects](https://img.shields.io/badge/Tracked%20Tools-Commercial%20%26%20Open%20Source-blue.svg)](https://github.com/ishandutta2007/Awesome-Dark-Web-Monitoring-Threat-Reconnaissance)
-[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Dark-Web-Monitoring-Threat-Reconnaissance?style=social)](https://github.com/ishandutta2007/Awesome-Dark-Web-Monitoring-Threat-Reconnaissance/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Dark-Web-Monitoring-Threat-Reconnaissance?style=social)](https://github.com/ishandutta2007/Awesome-Dark-Web-Monitoring-Threat-Reconnaissance/stargazers)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Dark-Web-Monitoring-Threat-Reconnaissance/blob/main/README.md#how-to-contribute)
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -66,7 +66,7 @@ Commercial platforms differentiate themselves through closed-source collection s
 For red teams, defensive threat researchers, and autonomous SOC builders, open-source tools allow local indexing, unconstrained OSINT querying, and community-driven threat hunting without SaaS subscription overhead. 🔓🛠️
 
 > [!TIP]
-> The table below is sorted in descending order by **GitHub Star Count**. Every badge links directly to that repository's stargazers page. ⭐
+> The table below is sorted in descending order by **GitHub Stars_Count**. Every badge links directly to that repository's stargazers page. ⭐
 
 | Repository & Tool | GitHub Popularity (Stars) 🔽 | Core Focus & Functionality | Best Use Case |
 | :--- | :--- | :--- | :--- |
@@ -124,7 +124,7 @@ Contributions are highly welcomed! Help us keep this directory accurate, up-to-d
 2. Create a new branch: `git checkout -b feat/add-tool-name`.
 3. Add the SaaS platform or open-source tool following the existing tabular structure.
 4. Ensure SaaS entries include **verified starting tier pricing**, **free tier/trial limits**, and **company valuation or revenue context**.
-5. Ensure open-source entries include a valid **social white-styled GitHub star badge linking to `/stargazers`**.
+5. Ensure open-source entries include a valid **social white-styled GitHub Stars_Badge linking to `/stargazers`**.
 6. Submit a pull request with a brief justification and documentation references. 🎉
 
 ---
